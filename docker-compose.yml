@@ -1,0 +1,41 @@
+services:
+  restaurant:
+    build:
+      context: ./services/restaurant
+      dockerfile: Dockerfile
+    ports:
+      - "8001:8001"
+    networks:
+      - order-restaurant-net
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8001/healthz')"]
+      interval: 3s
+      timeout: 2s
+      retries: 5
+      start_period: 2s
+
+  order:
+    build:
+      context: ./services/order
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - RESTAURANT_URL=http://restaurant:8001
+      - RESTAURANT_TIMEOUT_SECONDS=2.0
+    depends_on:
+      restaurant:
+        condition: service_healthy
+    networks:
+      - order-restaurant-net
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/healthz')"]
+      interval: 3s
+      timeout: 2s
+      retries: 5
+      start_period: 2s
+
+networks:
+  order-restaurant-net:
+    name: order-restaurant-net
+    driver: bridge

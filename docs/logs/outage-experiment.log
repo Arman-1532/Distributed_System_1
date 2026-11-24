@@ -1,0 +1,85 @@
+restaurant-1  | INFO:     Started server process [1]
+restaurant-1  | INFO:     Waiting for application startup.
+restaurant-1  | INFO:     Application startup complete.
+restaurant-1  | INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)
+restaurant-1  | INFO:     127.0.0.1:38094 - "GET /healthz HTTP/1.1" 200 OK
+restaurant-1  | 2026-11-18 12:39:27,951 INFO [correlation_id=a6060b92-f017-4da8-a520-4de02b9f0cba] request completed method=GET path=/healthz status=200 elapsed_ms=0
+restaurant-1  | 2026-11-18 12:39:31,034 INFO [correlation_id=170d2487-fbcd-4c84-97b9-94c50053d8d2] request completed method=GET path=/healthz status=200 elapsed_ms=0
+restaurant-1  | INFO:     127.0.0.1:38236 - "GET /healthz HTTP/1.1" 200 OK
+restaurant-1  | 2026-11-18 12:39:34,114 INFO [correlation_id=2f1c41f8-e10d-4c7a-bcd6-979b84c01ae1] request completed method=GET path=/healthz status=200 elapsed_ms=0
+restaurant-1  | INFO:     127.0.0.1:38244 - "GET /healthz HTTP/1.1" 200 OK
+restaurant-1  | 2026-11-18 12:39:37,204 INFO [correlation_id=6cd9cc2f-3235-4aa9-9324-621a9df27a11] request completed method=GET path=/healthz status=200 elapsed_ms=0
+restaurant-1  | INFO:     127.0.0.1:38246 - "GET /healthz HTTP/1.1" 200 OK
+restaurant-1  | 2026-11-18 12:39:40,291 INFO [correlation_id=8f67a746-dbc0-4fdf-afb7-ae129340764f] request completed method=GET path=/healthz status=200 elapsed_ms=0
+restaurant-1  | INFO:     127.0.0.1:38258 - "GET /healthz HTTP/1.1" 200 OK
+restaurant-1  | INFO:     127.0.0.1:51056 - "GET /healthz HTTP/1.1" 200 OK
+restaurant-1  | 2026-11-18 12:39:43,375 INFO [correlation_id=40549643-e9a9-48ff-acd3-0cc3629a4ba0] request completed method=GET path=/healthz status=200 elapsed_ms=0
+restaurant-1  | INFO:     172.19.0.3:48260 - "GET /restaurants/1 HTTP/1.1" 200 OK
+restaurant-1  | 2026-11-18 12:39:43,857 INFO [correlation_id=trace-corr-py-001] request completed method=GET path=/restaurants/1 status=200 elapsed_ms=0
+restaurant-1  | INFO:     127.0.0.1:51068 - "GET /healthz HTTP/1.1" 200 OK
+restaurant-1  | 2026-11-18 12:39:46,459 INFO [correlation_id=0c01e018-2155-4069-9320-c966a5226741] request completed method=GET path=/healthz status=200 elapsed_ms=0
+restaurant-1  | INFO:     Shutting down
+restaurant-1  | INFO:     Waiting for application shutdown.
+restaurant-1  | INFO:     Application shutdown complete.
+restaurant-1  | INFO:     Finished server process [1]
+restaurant-1  | INFO:     Started server process [1]
+restaurant-1  | INFO:     Waiting for application startup.
+restaurant-1  | INFO:     Application startup complete.
+restaurant-1  | INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)
+restaurant-1  | 2026-11-18 12:40:02,943 INFO [correlation_id=8a9874ad-fbc9-4808-af27-d3d2f8322c87] request completed method=GET path=/healthz status=200 elapsed_ms=0
+restaurant-1  | INFO:     127.0.0.1:33460 - "GET /healthz HTTP/1.1" 200 OK
+restaurant-1  | 2026-11-18 12:40:06,030 INFO [correlation_id=b6b04fd9-1076-4aff-88f7-108883094d57] request completed method=GET path=/healthz status=200 elapsed_ms=0
+restaurant-1  | INFO:     127.0.0.1:33472 - "GET /healthz HTTP/1.1" 200 OK
+restaurant-1  | 2026-11-18 12:40:09,112 INFO [correlation_id=outage-corr-recovery-py-003] request completed method=GET path=/restaurants/1 status=200 elapsed_ms=0
+restaurant-1  | INFO:     172.19.0.3:46280 - "GET /restaurants/1 HTTP/1.1" 200 OK
+restaurant-1  | INFO:     127.0.0.1:33484 - "GET /healthz HTTP/1.1" 200 OK
+restaurant-1  | 2026-11-18 12:40:09,114 INFO [correlation_id=83ebfc9b-5476-42de-9177-0d15118ebd86] request completed method=GET path=/healthz status=200 elapsed_ms=0
+restaurant-1  | 2026-11-18 12:40:12,201 INFO [correlation_id=50e02942-7b8a-41b8-84b2-74c083bd50bd] request completed method=GET path=/healthz status=200 elapsed_ms=0
+restaurant-1  | INFO:     127.0.0.1:43296 - "GET /healthz HTTP/1.1" 200 OK
+order-1       | INFO:     Started server process [1]
+order-1       | INFO:     Waiting for application startup.
+order-1       | INFO:     Application startup complete.
+order-1       | INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+order-1       | INFO:     127.0.0.1:51680 - "GET /healthz HTTP/1.1" 200 OK
+order-1       | 2026-11-18 12:39:30,528 INFO [correlation_id=ad9be818-b7b5-4326-b0d1-0ffbcd4c3e97] request completed method=GET path=/healthz status=200 elapsed_ms=0
+order-1       | 2026-11-18 12:39:33,612 INFO [correlation_id=53e7e85e-b84d-4eaa-8547-2a3f271ff26c] request completed method=GET path=/healthz status=200 elapsed_ms=0
+order-1       | INFO:     127.0.0.1:50868 - "GET /healthz HTTP/1.1" 200 OK
+order-1       | 2026-11-18 12:39:36,700 INFO [correlation_id=0ebb4316-01d9-4d9e-8fbc-bdc6c1e8c687] request completed method=GET path=/healthz status=200 elapsed_ms=0
+order-1       | INFO:     127.0.0.1:50874 - "GET /healthz HTTP/1.1" 200 OK
+order-1       | 2026-11-18 12:39:39,789 INFO [correlation_id=cf6ac763-0d68-433f-b6f9-96df30119dad] request completed method=GET path=/healthz status=200 elapsed_ms=0
+order-1       | INFO:     127.0.0.1:50882 - "GET /healthz HTTP/1.1" 200 OK
+order-1       | 2026-11-18 12:39:42,872 INFO [correlation_id=d1ac1cbb-7a56-440e-8605-575f322a821e] request completed method=GET path=/healthz status=200 elapsed_ms=0
+order-1       | INFO:     127.0.0.1:33574 - "GET /healthz HTTP/1.1" 200 OK
+order-1       | 2026-11-18 12:39:43,857 INFO [correlation_id=-] HTTP Request: GET http://restaurant:8001/restaurants/1 "HTTP/1.1 200 OK"
+order-1       | 2026-11-18 12:39:43,858 INFO [correlation_id=trace-corr-py-001] outbound call to restaurant service completed status=200 elapsed_ms=31
+order-1       | 2026-11-18 12:39:43,858 INFO [correlation_id=trace-corr-py-001] order created successfully order_id=ord-92913d2b-d104-4f44-8064-163581966b4b restaurant_id=1 item_count=1
+order-1       | 2026-11-18 12:39:43,858 INFO [correlation_id=trace-corr-py-001] request completed method=POST path=/orders status=201 elapsed_ms=34
+order-1       | INFO:     192.168.65.1:64826 - "POST /orders HTTP/1.1" 201 Created
+order-1       | INFO:     127.0.0.1:33576 - "GET /healthz HTTP/1.1" 200 OK
+order-1       | 2026-11-18 12:39:45,959 INFO [correlation_id=b2c467e7-f847-4161-bff1-04da022e2d67] request completed method=GET path=/healthz status=200 elapsed_ms=0
+order-1       | 2026-11-18 12:39:49,046 INFO [correlation_id=721ddbdb-d644-4ab3-9151-d4171307aee4] request completed method=GET path=/healthz status=200 elapsed_ms=0
+order-1       | INFO:     127.0.0.1:33580 - "GET /healthz HTTP/1.1" 200 OK
+order-1       | 2026-11-18 12:39:51,918 ERROR [correlation_id=outage-corr-fail-py-002] outbound call to restaurant service failed error=[Errno -2] Name or service not known elapsed_ms=12
+order-1       | 2026-11-18 12:39:51,918 INFO [correlation_id=outage-corr-fail-py-002] request completed method=POST path=/orders status=503 elapsed_ms=13
+order-1       | INFO:     192.168.65.1:52569 - "POST /orders HTTP/1.1" 503 Service Unavailable
+order-1       | INFO:     127.0.0.1:56200 - "GET /healthz HTTP/1.1" 200 OK
+order-1       | 2026-11-18 12:39:52,125 INFO [correlation_id=b3568466-0c0c-4482-9ec1-8f16632bfb5e] request completed method=GET path=/healthz status=200 elapsed_ms=0
+order-1       | INFO:     127.0.0.1:56214 - "GET /healthz HTTP/1.1" 200 OK
+order-1       | 2026-11-18 12:39:55,209 INFO [correlation_id=2107a9ef-03d3-46cd-a8ea-f17527f4ce37] request completed method=GET path=/healthz status=200 elapsed_ms=0
+order-1       | 2026-11-18 12:39:55,521 INFO [correlation_id=37946589-586a-4946-9aec-db6f7fe95dd0] request completed method=GET path=/healthz status=200 elapsed_ms=0
+order-1       | INFO:     192.168.65.1:22456 - "GET /healthz HTTP/1.1" 200 OK
+order-1       | INFO:     127.0.0.1:56216 - "GET /healthz HTTP/1.1" 200 OK
+order-1       | 2026-11-18 12:39:58,298 INFO [correlation_id=42bd6cbf-afe6-4f11-a59b-2bd4ace83c62] request completed method=GET path=/healthz status=200 elapsed_ms=0
+order-1       | 2026-11-18 12:40:01,382 INFO [correlation_id=d705dd23-5be2-4a8f-9eb9-5a9409f9809a] request completed method=GET path=/healthz status=200 elapsed_ms=0
+order-1       | INFO:     127.0.0.1:57954 - "GET /healthz HTTP/1.1" 200 OK
+order-1       | 2026-11-18 12:40:04,466 INFO [correlation_id=99d7fd13-e9bc-49a6-91c0-4393115f932f] request completed method=GET path=/healthz status=200 elapsed_ms=0
+order-1       | INFO:     127.0.0.1:57958 - "GET /healthz HTTP/1.1" 200 OK
+order-1       | 2026-11-18 12:40:07,553 INFO [correlation_id=6ecad792-ee52-483c-baf5-fc076c3c003f] request completed method=GET path=/healthz status=200 elapsed_ms=0
+order-1       | INFO:     127.0.0.1:57972 - "GET /healthz HTTP/1.1" 200 OK
+order-1       | 2026-11-18 12:40:09,112 INFO [correlation_id=-] HTTP Request: GET http://restaurant:8001/restaurants/1 "HTTP/1.1 200 OK"
+order-1       | 2026-11-18 12:40:09,113 INFO [correlation_id=outage-corr-recovery-py-003] outbound call to restaurant service completed status=200 elapsed_ms=9
+order-1       | 2026-11-18 12:40:09,113 INFO [correlation_id=outage-corr-recovery-py-003] order created successfully order_id=ord-428a93f5-8d94-4db3-ae89-7fb5bd71d826 restaurant_id=1 item_count=1
+order-1       | INFO:     192.168.65.1:60263 - "POST /orders HTTP/1.1" 201 Created
+order-1       | 2026-11-18 12:40:09,113 INFO [correlation_id=outage-corr-recovery-py-003] request completed method=POST path=/orders status=201 elapsed_ms=9
+order-1       | INFO:     127.0.0.1:57976 - "GET /healthz HTTP/1.1" 200 OK
+order-1       | 2026-11-18 12:40:10,637 INFO [correlation_id=c0de543d-ca38-4f89-9f91-742a24a5692f] request completed method=GET path=/healthz status=200 elapsed_ms=0
